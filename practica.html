@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>Cintia-Clon</title>
+</head>
+
+<body>
+    <div class="container-fluid" id="uno">
+        <!-- Mesa de ayuda -->
+        <div class="row">
+            <div class="col-12">
+                <h6>Mesa de ayuda</h6>
+            </div>
+        </div>
+
+        <!-- Logo y menu -->
+        <div class="row mt-2" id="dos">
+            <div class="col-md-2">
+                <a href="index.html">
+                    <img src="Imagenes/logo.png" class="img-fluid" alt="logo">
+                </a>
+            </div>
+
+            <div class="col-md-7">
+                <button class="bg-light mt-3"><i class="bi bi-list"></i></button>
+            </div>
+            <div class="col-md-2 mt-3">
+                <button class="bg-light"><i class="bi bi-bell-fill"></i></button>
+                <button class=""><i class="bi bi-chat-fill"></i></button>
+                <button class=""><i class="bi bi-search"></i></button>
+                <button class=""><i class="bi bi-person-fill"></i></button>
+            </div>
+        </div>
+
+        <!-- Mis cursos -->
+        <div class="row bg-success" id="tres">
+            <div class="col-md-3 mb-4 mt-4">
+                <h3>Mis cursos</h3>
+            </div>
+        </div>
+
+        <!-- Menusito -->
+        <div class="row bg-light" id="cuatro">
+            <div class="col-12">
+                <h6>Area Personal > Pagina del sitio > Mis Cursos</h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tarjetas -->
+    <div class="container" id="cinco">
+
+        <div class="row">
+            <!-- Columna izquierda-->
+            <div class="col-md-8">
+                <div class="bg-light mt-5" id="vista">
+                    <h5><i class="bi bi-journal"></i> Vista general del curso</h5>
+                </div>
+                <hr>
+
+                <!-- Barra de opciones -->
+                <div class="bg-light mt-3">
+                    <div class="input-group">
+                        <button class="btn btn-success">Todos</button>
+                        <input type="text" class="form-control" placeholder="Buscar...">
+                        <div class="input-group-append">
+                            <button class="btn btn-success">Ordenar por nombre del curso</button>
+                            <button class="btn btn-success">Tarjeta</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjetas -->
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <a href="desarrollo.html">
+                            <div class="card mb-4">
+                                <img class="card-img-top" src="Imagenes/desarrollo.png" style="height: 200px; width: 100%">
+                                <div class="card-body">
+                                    <h3>Desarrollo web</h3>
+                                    <h6>Ingenieria de sistemas</h6>
+                                </div>
+                                <i class="bi bi-three-dots-vertical position-absolute bottom-0 end-0"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Add more cards similarly -->
+                </div>
+            </div>
+
+            <!-- menú vertical -->
+            <div class="col-md-4">
+                <div class="bg-light mt-5 rounded">
+                    <h5 class="mt-2 bg-success text-light p-2 font-weight-normal"><i class="bi bi-diagram-3"></i> Navegación</h5>
+                    <ul class="nav flex-column">
+                        <!-- Add your navigation items -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0 text-center text-md-left">Centro de Innovación en TIC para Apoyo a la Academia - CINTIA</p>
+                    <p class="mb-0 text-center text-md-left">Oficina 201 Edificio Administrativo</p>
+                </div>
+                <div class="col-md-6">
+                    <a href=""><p class="mb-0 text-center text-md-right">Descargar la app para dispositivos móviles</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
